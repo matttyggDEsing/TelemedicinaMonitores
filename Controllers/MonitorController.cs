@@ -88,6 +88,17 @@ namespace TelemedicinaMonitores.Controllers
                 "Presión_arterial" => "mmHg",
                 _ => ""
             };
+
+
+
+
+        }
+        public static bool TryGetMonitor(string id, out PatientData patient)
+        {
+            return _monitors.TryGetValue(id, out patient);
         }
     }
+
+
 }
+

@@ -3,59 +3,79 @@
   "WorkspaceRootPath": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Views\\Patient\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Patient\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\PatientController.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PatientController.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Data\\AplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PatientData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\PatientData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PacienteDetailsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\PacienteDetailsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\Paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\MonitorSimulado\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\controllers\\monitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:controllers\\monitorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\MonitorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MonitorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\monitorconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\monitorconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Hubs\\MontirHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hubs\\MontirHub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\sensorhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\sensorhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SensorHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\MonitorConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MonitorConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\hubs\\montirhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:hubs\\montirhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SensorData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\AlarConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\AlarConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SensorUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\alarconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\alarconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|c:\\users\\maty anderegg\\desktop\\telemedicinamonitores\\models\\sensorupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0A2AC82-420B-4C3C-ADE4-EC7DAD21E8AB}|TelemedicinaMonitores.csproj|solutionrelative:models\\sensorupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,20 +101,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "Models\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\Paciente.cs",
+              "RelativeToolTip": "Models\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:13:34.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "Data\\AplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:08:18.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PacienteDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PacienteDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PacienteDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PacienteDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\PacienteDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T20:07:33.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Views\\Patient\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Views\\Patient\\Details.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T19:58:54.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T19:54:27.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\MonitorSimulado\\Program.cs",
               "RelativeDocumentMoniker": "..\\MonitorSimulado\\Program.cs",
               "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\MonitorSimulado\\Program.cs",
               "RelativeToolTip": "..\\MonitorSimulado\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T19:39:34.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "MontirHub.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Hubs\\MontirHub.cs",
               "RelativeDocumentMoniker": "Hubs\\MontirHub.cs",
@@ -102,23 +187,25 @@
               "RelativeToolTip": "Hubs\\MontirHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:57:58.445Z"
+              "WhenOpened": "2025-07-02T18:57:58.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PatientData.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PatientData.cs",
               "RelativeDocumentMoniker": "Models\\PatientData.cs",
               "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\PatientData.cs",
               "RelativeToolTip": "Models\\PatientData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:58:49.909Z"
+              "WhenOpened": "2025-07-02T18:58:49.909Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "SensorHistory.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorHistory.cs",
               "RelativeDocumentMoniker": "Models\\SensorHistory.cs",
@@ -126,11 +213,12 @@
               "RelativeToolTip": "Models\\SensorHistory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:59:08.315Z"
+              "WhenOpened": "2025-07-02T18:59:08.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "MonitorConnection.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\MonitorConnection.cs",
               "RelativeDocumentMoniker": "Models\\MonitorConnection.cs",
@@ -138,24 +226,25 @@
               "RelativeToolTip": "Models\\MonitorConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:58:38.68Z"
+              "WhenOpened": "2025-07-02T18:58:38.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MonitorController.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\MonitorController.cs",
               "RelativeDocumentMoniker": "Controllers\\MonitorController.cs",
               "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\MonitorController.cs",
               "RelativeToolTip": "Controllers\\MonitorController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwFIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T18:56:10.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -163,11 +252,12 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T19:07:37.396Z"
+              "WhenOpened": "2025-07-02T19:07:37.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "SensorData.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorData.cs",
               "RelativeDocumentMoniker": "Models\\SensorData.cs",
@@ -175,23 +265,25 @@
               "RelativeToolTip": "Models\\SensorData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:58:57.81Z"
+              "WhenOpened": "2025-07-02T18:58:57.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:59:59.091Z"
+              "WhenOpened": "2025-07-02T18:59:59.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AlarConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\AlarConfiguration.cs",
               "RelativeDocumentMoniker": "Models\\AlarConfiguration.cs",
@@ -199,11 +291,12 @@
               "RelativeToolTip": "Models\\AlarConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:58:26.543Z"
+              "WhenOpened": "2025-07-02T18:58:26.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SensorUpdate.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Models\\SensorUpdate.cs",
               "RelativeDocumentMoniker": "Models\\SensorUpdate.cs",
@@ -211,11 +304,12 @@
               "RelativeToolTip": "Models\\SensorUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T18:59:16.109Z"
+              "WhenOpened": "2025-07-02T18:59:16.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -223,11 +317,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAG8AAAAAAAAAAAAwwJUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-02T19:01:25.365Z"
+              "WhenOpened": "2025-07-02T19:01:25.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -235,11 +330,12 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwA8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-02T19:01:35.364Z"
+              "WhenOpened": "2025-07-02T19:01:35.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Maty Anderegg\\Desktop\\TelemedicinaMonitores\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -247,7 +343,8 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAADgvxwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T19:06:53.117Z"
+              "WhenOpened": "2025-07-02T19:06:53.117Z",
+              "EditorCaption": ""
             }
           ]
         }

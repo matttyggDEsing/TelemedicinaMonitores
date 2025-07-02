@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelemedicinaMonitores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b1c33ae8dfef27065ac23d608eaa1b0de969ec6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f1d4504fa31af11fe170b5ce4e319088cee126f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelemedicinaMonitores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelemedicinaMonitores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

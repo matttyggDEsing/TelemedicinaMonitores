@@ -1,0 +1,25 @@
+@model TelemedicinaMonitores.Models.PacienteDetailsViewModel
+
+<h2>@Model.Monitor.PatientName</h2>
+<p><strong>Ubicación:</strong> @Model.Monitor.Location</p>
+
+@if (Model.Ficha != null)
+{
+<h4>Información Clínica</h4>
+<p><strong>Domicilio:</strong> @Model.Ficha.Domicilio</p>
+<p><strong>Enfermedades:</strong> @Model.Ficha.Enfermedades</p>
+<p><strong>Vacunas:</strong> @Model.Ficha.Vacunas</p>
+<p><strong>Historial:</strong> @Model.Ficha.HistorialClinico</p>
+}
+else
+{
+<p class="text-warning">No hay información clínica cargada.</p>
+}
+
+<h4>Sensores</h4>
+<ul>
+    @foreach (var sensor in Model.Monitor.Sensors)
+{
+    <li><strong>@sensor.Type:</strong> @sensor.CurrentValue @sensor.Unit</li>
+}
+</ul>

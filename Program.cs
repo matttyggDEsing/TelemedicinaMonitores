@@ -1,8 +1,14 @@
 using TelemedicinaMonitores.Hubs;
-
+using TelemedicinaMonitores.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite("Data Source=telemedicina.db"));
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR(); // Agregar SignalR
 
@@ -15,7 +21,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
@@ -26,5 +32,6 @@ app.MapControllerRoute(
 
 // Mapear el Hub de SignalR
 app.MapHub<MonitorHub>("/monitorHub");
+
 
 app.Run();
