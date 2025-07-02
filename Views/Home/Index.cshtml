@@ -1,0 +1,150 @@
+﻿@{
+    ViewData["Title"] = "Monitor de Telemedicina";
+}
+
+<div class="container">
+    <h1>Pacientes Monitoreados</h1>
+    <div class="row" id="patientsContainer">
+        <!-- Los pacientes se agregarán dinámicamente aquí -->
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Conexión al Hub de SignalR
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/monitorHub")
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        // Diccionario para mantener los gráficos de cada sensor
+        const sensorCharts = {};
+
+        // Iniciar conexión
+        async function startConnection() {
+            try {
+                await connection.start();
+                console.log("SignalR Connected.");
+                
+                // Cargar monitores existentes al conectarse
+                fetch('/api/monitor')
+                    .then(response => response.json())
+                    .then(data => {
+                        data.forEach(monitor => {
+                            addOrUpdatePatientCard(monitor);
+                        });
+                    });
+            } catch (err) {
+                console.log(err);
+                setTimeout(startConnection, 5000);
+            }
+        };
+
+        // Manejar datos recibidos del servidor
+        connection.on("ReceiveMonitorData", (monitorId, patientData) => {
+            addOrUpdatePatientCard(patientData);
+        });
+
+        // Función para actualizar/agregar tarjeta de paciente
+        function addOrUpdatePatientCard(patientData) {
+            const container = document.getElementById('patientsContainer');
+            let card = document.getElementById(`patient-${patientData.monitorId}`);
+            
+            if (!card) {
+                // Crear nueva tarjeta si no existe
+                card = document.createElement('div');
+                card.className = 'col-md-4 mb-4';
+                card.id = `patient-${patientData.monitorId}`;
+                card.innerHTML = `
+                    <div class="card patient-card">
+                        <div class="card-header">
+                            <h5>${patientData.patientName}</h5>
+                            <span class="badge bg-${patientData.location === 'home' ? 'info' : 'primary'}">
+                                ${patientData.location === 'home' ? 'Domicilio' : 'Institución'}
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="sensor-data" id="sensor-data-${patientData.monitorId}">
+                                <!-- Datos de sensores se insertarán aquí -->
+                            </div>
+                            <canvas class="sensor-chart" id="chart-${patientData.monitorId}" height="150"></canvas>
+                            <a href="/Patient/Details/${patientData.monitorId}" class="btn btn-sm btn-primary mt-2">Ver detalles</a>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+                
+                // Inicializar gráfico
+                initializeChart(patientData.monitorId);
+            }
+            
+            // Actualizar datos de sensores
+            const sensorDataContainer = document.getElementById(`sensor-data-${patientData.monitorId}`);
+            sensorDataContainer.innerHTML = patientData.sensors.map(sensor => `
+                <div class="sensor-item mb-2">
+                    <strong>${sensor.type}:</strong> 
+                    <span class="value">${sensor.currentValue}</span>
+                    <span class="unit">${sensor.unit}</span>
+                </div>
+            `).join('');
+            
+            // Actualizar gráfico
+            updateChart(patientData.monitorId, patientData.sensors);
+        }
+
+        // Inicializar gráfico para un monitor
+        function initializeChart(monitorId) {
+            const ctx = document.getElementById(`chart-${monitorId}`).getContext('2d');
+            sensorCharts[monitorId] = new Chart(ctx, {
+                type: 'line',
+                data: { labels: [], datasets: [] },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'top' }
+                    },
+                    scales: {
+                        y: { beginAtZero: false }
+                    }
+                }
+            });
+        }
+
+        // Actualizar gráfico con nuevos datos
+        function updateChart(monitorId, sensors) {
+            const chart = sensorCharts[monitorId];
+            if (!chart) return;
+
+            // Actualizar datasets
+            chart.data.datasets = sensors.map(sensor => ({
+                label: sensor.type,
+                data: sensor.history.map(h => h.value),
+                borderColor: getColorForSensor(sensor.type),
+                backgroundColor: 'rgba(0, 0, 0, 0)',
+                tension: 0.1
+            }));
+
+            // Actualizar labels (hora de las mediciones)
+            if (sensors.length > 0 && sensors[0].history.length > 0) {
+                chart.data.labels = sensors[0].history.map(h => 
+                    new Date(h.timestamp).toLocaleTimeString());
+            }
+
+            chart.update();
+        }
+
+        function getColorForSensor(sensorType) {
+            const colors = {
+                'heart_rate': '#FF6384',
+                'glucose': '#36A2EB',
+                'blood_pressure': '#FFCE56'
+            };
+            return colors[sensorType] || '#4BC0C0';
+        }
+
+        // Iniciar la conexión cuando la página se carga
+        document.addEventListener('DOMContentLoaded', startConnection);
+    </script>
+}

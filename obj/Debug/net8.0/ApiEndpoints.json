@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "TelemedicinaMonitores.Controllers.MonitorController",
+    "Method": "GetMonitors",
+    "RelativePath": "api/Monitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TelemedicinaMonitores.Controllers.MonitorController",
+    "Method": "ReceiveSensorData",
+    "RelativePath": "api/Monitor/{monitorId}/data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "monitorId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "update",
+        "Type": "TelemedicinaMonitores.Models.SensorUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TelemedicinaMonitores.Controllers.MonitorController",
+    "Method": "ConnectMonitor",
+    "RelativePath": "api/Monitor/connect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TelemedicinaMonitores.Models.MonitorConnection",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
