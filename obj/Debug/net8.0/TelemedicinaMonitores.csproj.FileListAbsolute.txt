@@ -25,9 +25,9 @@ C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\staticweba
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\TelemedicinaMonitores.dll
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\refint\TelemedicinaMonitores.dll
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\TelemedicinaMonitores.pdb
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\TelemedicinaMonitores.genruntimeconfig.cache
 C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\ref\TelemedicinaMonitores.dll
+C:\Users\Maty Anderegg\Desktop\TelemedicinaMonitores\obj\Debug\net8.0\TelemedicinaMonitores.sourcelink.json

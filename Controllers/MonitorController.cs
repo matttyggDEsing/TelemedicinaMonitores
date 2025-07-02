@@ -20,9 +20,11 @@ namespace TelemedicinaMonitores.Controllers
         [HttpPost("connect")]
         public IActionResult ConnectMonitor([FromBody] MonitorConnection request)
         {
+            var newMonitorId = Guid.NewGuid().ToString(); // Generar ID único
+
             var patientData = new PatientData
             {
-                MonitorId = request.MonitorId,
+                MonitorId = newMonitorId,
                 PatientName = $"Paciente {_monitors.Count + 1}",
                 Location = request.Location,
                 Sensors = request.Sensors.Select(s => new SensorData
@@ -33,12 +35,13 @@ namespace TelemedicinaMonitores.Controllers
                 }).ToList()
             };
 
-            _monitors[request.MonitorId] = patientData;
-            
+            _monitors[newMonitorId] = patientData;
+
             // Notificar a todos los clientes
-            _hubContext.Clients.All.SendAsync("ReceiveMonitorData", request.MonitorId, patientData);
-            
-            return Ok(new { success = true, patient = patientData });
+            _hubContext.Clients.All.SendAsync("ReceiveMonitorData", newMonitorId, patientData);
+
+            // Devolver el nuevo monitorId al cliente
+            return Ok(new { success = true, monitorId = newMonitorId, patient = patientData });
         }
 
         [HttpGet]
