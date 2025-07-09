@@ -1,10 +1,10 @@
 using TelemedicinaMonitores.Hubs;
 using TelemedicinaMonitores.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.Sqlite;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite("Data Source=telemedicina.db"));

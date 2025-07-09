@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.SignalR;
 using TelemedicinaMonitores.Hubs;
 using TelemedicinaMonitores.Models;
+using TelemedicinaMonitores.Data;
 
 namespace TelemedicinaMonitores.Controllers
 {
@@ -10,17 +11,20 @@ namespace TelemedicinaMonitores.Controllers
     public class MonitorController : ControllerBase
     {
         private readonly IHubContext<MonitorHub> _hubContext;
+        private readonly ApplicationDbContext _db;
         private static Dictionary<string, PatientData> _monitors = new();
 
-        public MonitorController(IHubContext<MonitorHub> hubContext)
+        public MonitorController(IHubContext<MonitorHub> hubContext, ApplicationDbContext db)
         {
             _hubContext = hubContext;
+            _db = db;
         }
 
         [HttpPost("connect")]
         public IActionResult ConnectMonitor([FromBody] MonitorConnection request)
         {
-            var newMonitorId = Guid.NewGuid().ToString(); // Generar ID único
+            // Usar el ID enviado o generar uno nuevo
+            var newMonitorId = string.IsNullOrEmpty(request.MonitorId) ? Guid.NewGuid().ToString() : request.MonitorId;
 
             var patientData = new PatientData
             {
@@ -37,10 +41,25 @@ namespace TelemedicinaMonitores.Controllers
 
             _monitors[newMonitorId] = patientData;
 
-            // Notificar a todos los clientes
+            // Asociar ficha clínica en la base de datos si no existe
+            var ficha = _db.Pacientes.FirstOrDefault(p => p.MonitorId == newMonitorId);
+            if (ficha == null)
+            {
+                ficha = new Paciente
+                {
+                    MonitorId = newMonitorId,
+                    NombreCompleto = patientData.PatientName,
+                    Domicilio = "Sin especificar",
+                    Enfermedades = "",
+                    Vacunas = "",
+                    HistorialClinico = ""
+                };
+                _db.Pacientes.Add(ficha);
+                _db.SaveChanges();
+            }
+
             _hubContext.Clients.All.SendAsync("ReceiveMonitorData", newMonitorId, patientData);
 
-            // Devolver el nuevo monitorId al cliente
             return Ok(new { success = true, monitorId = newMonitorId, patient = patientData });
         }
 
@@ -67,7 +86,7 @@ namespace TelemedicinaMonitores.Controllers
                 });
 
                 CheckAlarms(monitorId, sensor, update.Value);
-                
+
                 await _hubContext.Clients.All.SendAsync("ReceiveMonitorData", monitorId, patientData);
             }
 
@@ -76,7 +95,7 @@ namespace TelemedicinaMonitores.Controllers
 
         private void CheckAlarms(string monitorId, SensorData sensor, double value)
         {
-            // Implementa tu lógica de alarmas aquí
+            // Lógica de alarma opcional
         }
 
         private string GetUnitForSensor(string sensorType)
@@ -88,17 +107,12 @@ namespace TelemedicinaMonitores.Controllers
                 "Presión_arterial" => "mmHg",
                 _ => ""
             };
-
-
-
-
         }
+
+        // Permitir acceso desde otros controladores
         public static bool TryGetMonitor(string id, out PatientData patient)
         {
             return _monitors.TryGetValue(id, out patient);
         }
     }
-
-
 }
-
