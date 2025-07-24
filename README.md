@@ -43,7 +43,6 @@ if (value > alarm.Max || value < alarm.Min)
 }
 ```
 
-![alarmas-demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZsaWs4c3Q5OGpva2R3NWFlMmFqaXprN2ptYTZlMnN2dm9wYTZ0MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dZ4rM2ogUNyf8/giphy.gif)
 
 ---
 
@@ -57,7 +56,6 @@ if (value > alarm.Max || value < alarm.Min)
 - Gráficos dinámicos (Chart.js).
 - Alarmas destacadas.
 
-![dashboard-demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHdlZ3gzNTZmcTNvd2duMHRscm91dWhqdmZmOTM5NWI2ZXM2YXNidSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yGhzECIOH5Krc8Nxl5/giphy.gif)
 
 ---
 
@@ -104,8 +102,8 @@ dotnet run --project SimuladorSensores
 
 **Maty Anderegg**  
 📍 Argentina  
-📧 [tuemail@ejemplo.com]  
-📱 343 xxx xxxx
+📧 [matiasanderegg2@gmail.com]  
+📱 343 4586930
 
 ---
 
