@@ -3,7 +3,7 @@
 > Monitoreo en tiempo real de pacientes con sensores biomédicos  
 > 🛠️ Desarrollado con .NET 8, SignalR, EF Core, Chart.js y Bootstrap.
 
-![telemedicina-banner](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJtZGE1OGV6YmM1bWQ0YzVhdTg4c3F0eGNkN2ttM2h0Z3k5bTQ0MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/kBUuBHsxKxW5Et0RM8/giphy.gif)
+![telemedicina-banner](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3ljZmRsN2lsa29iZ2l5ZG4xcTFxeG0xMWdkMTBzOW00YWxhMDVtYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sag1ykF7xHFnGWoYc9/giphy.gif)
 
 ---
 
