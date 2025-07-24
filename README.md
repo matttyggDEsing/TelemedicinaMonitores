@@ -79,9 +79,6 @@ dotnet ef database update
 
 # 3. Correr el servidor
 dotnet run
-
-# (Opcional) Ejecutar simulador
-dotnet run --project SimuladorSensores
 ```
 
 ---
